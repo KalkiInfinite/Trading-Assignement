@@ -34,3 +34,19 @@ A simplified trading bot built with Python and Streamlit to place **Market** and
    ```bash
    git clone https://github.com/your-username/binance-futures-bot.git
    cd binance-futures-bot
+   
+2. **Install dependencies**
+
+bash
+pip install -r requirements.txt
+
+
+3. **Add your Binance Testnet API keys**
+
+Create a file config.py and add:
+API_KEY = "your_testnet_api_key"
+API_SECRET = "your_testnet_api_secret"
+BASE_URL = "https://testnet.binancefuture.com"
+
+4. **Run the Streamlit app**
+streamlit run app.py
