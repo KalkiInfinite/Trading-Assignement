@@ -1,0 +1,12 @@
+2025-06-23 23:16:33,028 - INFO - Bot initialized
+2025-06-23 23:25:33,370 - INFO - Bot initialized
+2025-06-23 23:28:16,839 - INFO - Bot initialized
+2025-06-23 23:28:17,447 - ERROR - Order failed: APIError(code=None): None
+2025-06-23 23:29:10,219 - INFO - BUY MARKET order placed: {'symbol': 'BTCUSDT', 'orderId': 11239001, 'status': 'FILLED', 'price': '62214.50', 'executedQty': '0.01', 'side': 'BUY'}
+2025-06-23 23:30:15,857 - INFO - Bot initialized
+2025-06-23 23:30:16,449 - ERROR - Order failed: APIError(code=None): None
+2025-06-23 23:30:24,919 - INFO - Bot initialized
+2025-06-23 23:30:25,460 - ERROR - Order failed: APIError(code=None): None
+2025-06-23 23:31:52,174 - INFO - SELL LIMIT order placed: {'symbol': 'BTCUSDT', 'orderId': 11239002, 'status': 'NEW', 'price': '63000.00', 'executedQty': '0.00', 'side': 'SELL'}
+2025-06-23 23:33:06,003 - INFO - BUY LIMIT order placed: {'symbol': 'ETHUSDT', 'orderId': 11239003, 'status': 'NEW', 'price': '3720.00', 'executedQty': '0.00', 'side': 'BUY'}
+2025-06-23 23:34:18,275 - ERROR - Order failed: Invalid quantity: must be greater than 0
