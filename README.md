@@ -54,7 +54,9 @@ BASE_URL = "https://testnet.binancefuture.com"
 streamlit run app.py
 ```
 
-File Structure
+---
+
+## File Structure
 ```bash
 trading-bot/
 ├── app.py              # Streamlit UI
