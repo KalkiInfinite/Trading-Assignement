@@ -46,11 +46,21 @@ pip install -r requirements.txt
 ```bash
 Create a file config.py and add:
 API_KEY = "your_testnet_api_key"
-
 API_SECRET = "your_testnet_api_secret"
-
 BASE_URL = "https://testnet.binancefuture.com"
 ```
 4. **Run the Streamlit app**
 ```bash
 streamlit run app.py
+```
+
+File Structure
+```bash
+trading-bot/
+├── app.py              # Streamlit UI
+├── bot.py              # Trading logic
+├── config.py           # API credentials (excluded from Git)
+├── logger.py           # Logging setup
+├── logs/               # API log files
+├── requirements.txt    # Python dependencies
+└── README.md
